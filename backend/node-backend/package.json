@@ -1,0 +1,19 @@
+{
+  "name": "node-backend",
+  "module": "index.js",
+  "scripts": {
+    "start": "bun index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "graphlib": "^2.1.8"
+  }
+}
