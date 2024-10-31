@@ -49,10 +49,10 @@ export const PipelineUI = () => {
       let nodeData = { id: nodeID, nodeType: `${type}` };
       if (type === 'customInput') {
         nodeData.inputName = '';
-        nodeData.inputType = 'Text'; // Default type
+        nodeData.inputType = 'Text'; 
       } else if (type === 'customOutput') {
         nodeData.outputName = '';
-        nodeData.outputType = 'Text'; // Default type
+        nodeData.outputType = 'Text'; 
       } else if (type === 'text') {
         nodeData.text = '';
       } else if (type === 'llm') {
